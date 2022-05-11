@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{fc7a2f77-e6c9-4818-b411-cc719503bb50}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="vst">
+      <UniqueIdentifier>{3cd77345-90cd-4cba-a62b-cb4bc8c3a955}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\MisEfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vstsdk2.4\public.sdk\source\vst2.x\audioeffect.cpp">
+      <Filter>vst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vstsdk2.4\public.sdk\source\vst2.x\audioeffectx.cpp">
+      <Filter>vst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vstsdk2.4\public.sdk\source\vst2.x\vstplugmain.cpp">
+      <Filter>vst</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
